@@ -19,3 +19,12 @@ for el in v_lst:
         print(f"в байтовом представлении: {byte_str} | {type(byte_str)}")
     except SyntaxError:
         print(f"строка '{el}' не может быть представлена в байтовом представлении вида b'???' ")
+
+
+print("-------------------------- пример преподавателя --------------------------")
+for el in v_lst:
+    try:
+        print(bytes(el,'ascii'))
+    except UnicodeError:
+        print(f"строка '{el}' не может быть представлена в байтовом представлении вида b'???' ")
+

@@ -30,3 +30,9 @@ for i in range(len(v_lst)):
     print(f" буквеннный формат  : '{v_lst[i]}' | тип {type(v_lst[i])}")
     print(f" набор кодовых точек: '{v_lst_bytes[i]}' | тип {type(v_lst_bytes[i])}")
     print("-" * 80)
+
+print("-------------------------- пример преподавателя --------------------------")
+for el in v_lst:
+    print(f"'{el}' - буквенный формат - {type(el)}")
+    print(f"{el.encode(('unicode_escape')).decode('utf-8')} - набор кодовых точек - {type(el)}")
+    print("-" * 80)

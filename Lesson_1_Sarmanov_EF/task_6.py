@@ -26,6 +26,7 @@
 import chardet
 
 c_file = "test_file.txt"
+c_file2 = "test_file2.txt"
 
 with open(c_file, mode="rb") as w_file:
     for line in w_file:
@@ -33,3 +34,20 @@ with open(c_file, mode="rb") as w_file:
         row_str = line.decode(code_dic['encoding']).encode('utf-8')
         decode_str = row_str.decode('utf-8')
         print(f"{decode_str}", end='')
+
+print()
+print("-------------------------- пример преподавателя --------------------------")
+def encod_convert():
+    with open(c_file2, mode='rb') as f_obj:
+        content_byte=f_obj.read()
+    detected=chardet.detect(content_byte)
+    encoding=detected[('encoding')]
+    content_text=content_byte.decode(encoding)
+    with open(c_file2, 'w', encoding='utf=8') as f_obj:
+        f_obj.write(content_text)
+
+encod_convert()
+
+with open(c_file2, 'r', encoding='utf-8') as file:
+    content=file.read()
+print(content)
