@@ -1,0 +1,11 @@
+items:
+- computer
+- printer
+- keyboard
+- mouse
+items_price:
+  computer: 200£
+  keyboard: 5£
+  mouse: 4£
+  printer: 100£
+items_quantity: 4
