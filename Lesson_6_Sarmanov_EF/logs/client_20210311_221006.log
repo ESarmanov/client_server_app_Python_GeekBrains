@@ -1,0 +1,26 @@
+2021-03-11 22:10:06,967 INFO client.py client started 127.0.0.1:7777
+2021-03-11 22:10:06,971 DEBUG client.py presence to Guest
+2021-03-11 22:10:06,971 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2021-03-11 22:10:07,021 DEBUG decoration_log.py Called function:__main__.create_presence:(('Guest',), {}). Called from function: transport_send
+2021-03-11 22:10:07,082 DEBUG decoration_log.py Called function:__main__.process_handler:(({'response': 200, 'error': '200:OK', 'msg': 'Welcome, Гость'},), {}). Called from function: transport_send
+2021-03-11 22:10:07,091 DEBUG decoration_log.py Called function:__main__.transport_send:(('127.0.0.1', 7777), {}). Called from function: start_client
+2021-03-11 22:10:10,629 DEBUG decoration_log.py Called function:__main__.get_user:((), {}). Called from function: start_client
+2021-03-11 22:10:10,630 INFO client.py Guest авторизовался как Zheka
+2021-03-11 22:10:10,630 DEBUG client.py отправка authenticate сообщения на сервер 127.0.0.1:7777 от user=Zheka
+2021-03-11 22:10:10,630 DEBUG client.py Сформировано action сообщение для пользователя Zheka
+2021-03-11 22:10:10,632 DEBUG decoration_log.py Called function:__main__.create_action:(('Zheka', 'authenticate', None), {}). Called from function: transport_send
+2021-03-11 22:10:10,632 DEBUG client.py send {'action': 'authenticate', 'time': 1615482610.6302097, 'user': {'account_name': 'Zheka'}, 'msg': None}
+2021-03-11 22:10:10,635 DEBUG decoration_log.py Called function:__main__.process_handler:(({'response': 200, 'error': '200:OK', 'msg': 'Welcome, Zheka'},), {}). Called from function: transport_send
+2021-03-11 22:10:10,636 DEBUG decoration_log.py Called function:__main__.transport_send:(('127.0.0.1', 7777), {'account_name': 'Zheka', 'action': 'authenticate'}). Called from function: start_client
+2021-03-11 22:10:21,392 INFO client.py отправка сообщения msg:Гутер ивнинг на сервер 127.0.0.1:7777 от user=Zheka
+2021-03-11 22:10:21,393 DEBUG client.py Сформировано action сообщение для пользователя Zheka
+2021-03-11 22:10:21,394 DEBUG decoration_log.py Called function:__main__.create_action:(('Zheka', 'msg', 'Гутер ивнинг'), {}). Called from function: transport_send
+2021-03-11 22:10:21,395 DEBUG client.py send {'action': 'msg', 'time': 1615482621.3932295, 'user': {'account_name': 'Zheka'}, 'msg': 'Гутер ивнинг'}
+2021-03-11 22:10:21,398 DEBUG decoration_log.py Called function:__main__.process_handler:(({'response': 200, 'error': '200:OK', 'msg': 'Гутер ивнинг'},), {}). Called from function: transport_send
+2021-03-11 22:10:21,399 DEBUG decoration_log.py Called function:__main__.transport_send:(('127.0.0.1', 7777), {'account_name': 'Zheka', 'action': 'msg', 'msg': 'Гутер ивнинг'}). Called from function: start_client
+2021-03-11 22:10:28,535 INFO client.py отправка сообщения msg:Пока на сервер 127.0.0.1:7777 от user=Zheka
+2021-03-11 22:10:28,536 DEBUG client.py Сформировано action сообщение для пользователя Zheka
+2021-03-11 22:10:28,538 DEBUG decoration_log.py Called function:__main__.create_action:(('Zheka', 'msg', 'Пока'), {}). Called from function: transport_send
+2021-03-11 22:10:28,538 DEBUG client.py send {'action': 'msg', 'time': 1615482628.5360484, 'user': {'account_name': 'Zheka'}, 'msg': 'Пока'}
+2021-03-11 22:10:28,541 DEBUG decoration_log.py Called function:__main__.process_handler:(({'response': 200, 'error': '200:OK', 'msg': 'Пока'},), {}). Called from function: transport_send
+2021-03-11 22:10:28,542 DEBUG decoration_log.py Called function:__main__.transport_send:(('127.0.0.1', 7777), {'account_name': 'Zheka', 'action': 'msg', 'msg': 'Пока'}). Called from function: start_client
