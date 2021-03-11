@@ -1,0 +1,13 @@
+2021-03-10 08:45:17,648 INFO client.py client started 127.0.0.1:7777
+2021-03-10 08:45:17,669 DEBUG client.py presence to Guest
+2021-03-10 08:45:17,670 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2021-03-10 08:45:33,696 INFO client.py Guest авторизовался как Kto_to
+2021-03-10 08:45:33,696 DEBUG client.py отправка authenticate сообщения на сервер 127.0.0.1:7777 от user=Kto_to
+2021-03-10 08:45:33,697 DEBUG client.py Сформировано action сообщение для пользователя Kto_to
+2021-03-10 08:45:33,697 DEBUG client.py send {'action': 'authenticate', 'time': 1615347933.6977437, 'user': {'account_name': 'Kto_to'}, 'msg': None}
+2021-03-10 08:45:45,670 INFO client.py отправка сообщения msg:Привет на сервер 127.0.0.1:7777 от user=Kto_to
+2021-03-10 08:45:45,671 DEBUG client.py Сформировано action сообщение для пользователя Kto_to
+2021-03-10 08:45:45,671 DEBUG client.py send {'action': 'msg', 'time': 1615347945.6716526, 'user': {'account_name': 'Kto_to'}, 'msg': 'Привет'}
+2021-03-10 08:45:50,785 INFO client.py отправка сообщения msg:Кто тут? на сервер 127.0.0.1:7777 от user=Kto_to
+2021-03-10 08:45:50,785 DEBUG client.py Сформировано action сообщение для пользователя Kto_to
+2021-03-10 08:45:50,786 DEBUG client.py send {'action': 'msg', 'time': 1615347950.785451, 'user': {'account_name': 'Kto_to'}, 'msg': 'Кто тут?'}

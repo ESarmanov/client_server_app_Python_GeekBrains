@@ -1,0 +1,17 @@
+2021-03-10 08:45:15,328 INFO server.py server started on 127.0.0.1:7777
+2021-03-10 08:45:17,669 DEBUG server.py client | ('127.0.0.1', 53367)
+2021-03-10 08:45:17,670 INFO server.py client_message:('127.0.0.1', 53367) | {'action': 'presence', 'time': 1615347917.670741, 'user': {'account_name': 'Guest'}}
+2021-03-10 08:45:17,670 DEBUG server.py функция разбора сообщения от клиента: {'action': 'presence', 'time': 1615347917.670741, 'user': {'account_name': 'Guest'}}
+2021-03-10 08:45:17,670 INFO server.py send_message ('127.0.0.1', 53367) | {'response': 200, 'error': '200:OK', 'msg': 'Welcome, Гость'}
+2021-03-10 08:45:33,697 DEBUG server.py client | ('127.0.0.1', 53369)
+2021-03-10 08:45:33,698 INFO server.py client_message:('127.0.0.1', 53369) | {'action': 'authenticate', 'time': 1615347933.6977437, 'user': {'account_name': 'Kto_to'}, 'msg': None}
+2021-03-10 08:45:33,698 DEBUG server.py функция разбора сообщения от клиента: {'action': 'authenticate', 'time': 1615347933.6977437, 'user': {'account_name': 'Kto_to'}, 'msg': None}
+2021-03-10 08:45:33,698 INFO server.py send_message ('127.0.0.1', 53369) | {'response': 200, 'error': '200:OK', 'msg': 'Welcome, Kto_to'}
+2021-03-10 08:45:45,671 DEBUG server.py client | ('127.0.0.1', 53370)
+2021-03-10 08:45:45,672 INFO server.py client_message:('127.0.0.1', 53370) | {'action': 'msg', 'time': 1615347945.6716526, 'user': {'account_name': 'Kto_to'}, 'msg': 'Привет'}
+2021-03-10 08:45:45,672 DEBUG server.py функция разбора сообщения от клиента: {'action': 'msg', 'time': 1615347945.6716526, 'user': {'account_name': 'Kto_to'}, 'msg': 'Привет'}
+2021-03-10 08:45:45,672 INFO server.py send_message ('127.0.0.1', 53370) | {'response': 200, 'error': '200:OK', 'msg': 'Привет'}
+2021-03-10 08:45:50,786 DEBUG server.py client | ('127.0.0.1', 53373)
+2021-03-10 08:45:50,786 INFO server.py client_message:('127.0.0.1', 53373) | {'action': 'msg', 'time': 1615347950.785451, 'user': {'account_name': 'Kto_to'}, 'msg': 'Кто тут?'}
+2021-03-10 08:45:50,786 DEBUG server.py функция разбора сообщения от клиента: {'action': 'msg', 'time': 1615347950.785451, 'user': {'account_name': 'Kto_to'}, 'msg': 'Кто тут?'}
+2021-03-10 08:45:50,786 INFO server.py send_message ('127.0.0.1', 53373) | {'response': 200, 'error': '200:OK', 'msg': 'Кто тут?'}

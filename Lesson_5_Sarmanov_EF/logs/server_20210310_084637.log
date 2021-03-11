@@ -1,0 +1,21 @@
+2021-03-10 08:46:37,782 INFO server.py server started on 127.0.0.1:7777
+2021-03-10 08:46:40,757 DEBUG server.py client | ('127.0.0.1', 53376)
+2021-03-10 08:46:40,757 INFO server.py client_message:('127.0.0.1', 53376) | {'action': 'presence', 'time': 1615348000.7578225, 'user': {'account_name': 'Guest'}}
+2021-03-10 08:46:40,758 DEBUG server.py функция разбора сообщения от клиента: {'action': 'presence', 'time': 1615348000.7578225, 'user': {'account_name': 'Guest'}}
+2021-03-10 08:46:40,758 INFO server.py send_message ('127.0.0.1', 53376) | {'response': 200, 'error': '200:OK', 'msg': 'Welcome, Гость'}
+2021-03-10 08:46:54,537 DEBUG server.py client | ('127.0.0.1', 53377)
+2021-03-10 08:46:54,537 INFO server.py client_message:('127.0.0.1', 53377) | {'action': 'authenticate', 'time': 1615348014.5367515, 'user': {'account_name': 'Patrio'}, 'msg': None}
+2021-03-10 08:46:54,538 DEBUG server.py функция разбора сообщения от клиента: {'action': 'authenticate', 'time': 1615348014.5367515, 'user': {'account_name': 'Patrio'}, 'msg': None}
+2021-03-10 08:46:54,538 INFO server.py send_message ('127.0.0.1', 53377) | {'response': 200, 'error': '200:OK', 'msg': 'Welcome, Patrio'}
+2021-03-10 08:48:17,680 DEBUG server.py client | ('127.0.0.1', 53392)
+2021-03-10 08:48:17,681 INFO server.py client_message:('127.0.0.1', 53392) | {'action': 'msg', 'time': 1615348097.6805744, 'user': {'account_name': 'Patrio'}, 'msg': 'Por la tarde, amigo'}
+2021-03-10 08:48:17,681 DEBUG server.py функция разбора сообщения от клиента: {'action': 'msg', 'time': 1615348097.6805744, 'user': {'account_name': 'Patrio'}, 'msg': 'Por la tarde, amigo'}
+2021-03-10 08:48:17,681 INFO server.py send_message ('127.0.0.1', 53392) | {'response': 200, 'error': '200:OK', 'msg': 'Por la tarde, amigo'}
+2021-03-10 08:50:38,086 DEBUG server.py client | ('127.0.0.1', 53406)
+2021-03-10 08:50:38,087 INFO server.py client_message:('127.0.0.1', 53406) | {'action': 'msg', 'time': 1615348238.0865395, 'user': {'account_name': 'Patrio'}, 'msg': 'Как то тихо в этом чате'}
+2021-03-10 08:50:38,087 DEBUG server.py функция разбора сообщения от клиента: {'action': 'msg', 'time': 1615348238.0865395, 'user': {'account_name': 'Patrio'}, 'msg': 'Как то тихо в этом чате'}
+2021-03-10 08:50:38,088 INFO server.py send_message ('127.0.0.1', 53406) | {'response': 200, 'error': '200:OK', 'msg': 'Как то тихо в этом чате'}
+2021-03-10 09:58:22,550 DEBUG server.py client | ('127.0.0.1', 53697)
+2021-03-10 09:58:22,550 INFO server.py client_message:('127.0.0.1', 53697) | {'action': 'msg', 'time': 1615352302.5506155, 'user': {'account_name': 'Patrio'}, 'msg': 'Пока'}
+2021-03-10 09:58:22,550 DEBUG server.py функция разбора сообщения от клиента: {'action': 'msg', 'time': 1615352302.5506155, 'user': {'account_name': 'Patrio'}, 'msg': 'Пока'}
+2021-03-10 09:58:22,550 INFO server.py send_message ('127.0.0.1', 53697) | {'response': 200, 'error': '200:OK', 'msg': 'Пока'}
