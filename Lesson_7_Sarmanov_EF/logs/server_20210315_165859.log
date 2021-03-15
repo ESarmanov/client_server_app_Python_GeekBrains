@@ -1,0 +1,52 @@
+2021-03-15 16:58:59,450 INFO server.py server started on 127.0.0.1:7777
+2021-03-15 16:58:59,466 DEBUG server.py client | ('127.0.0.1', 59078)
+2021-03-15 16:58:59,481 INFO server.py установлено соедниение с клиентом ('127.0.0.1', 59078)
+2021-03-15 16:58:59,497 DEBUG server.py client | ('127.0.0.1', 59079)
+2021-03-15 16:58:59,497 INFO server.py установлено соедниение с клиентом ('127.0.0.1', 59079)
+2021-03-15 16:58:59,497 DEBUG server.py client | ('127.0.0.1', 59080)
+2021-03-15 16:58:59,497 INFO server.py установлено соедниение с клиентом ('127.0.0.1', 59080)
+2021-03-15 16:59:00,502 INFO server.py функция разбора message от клиента: {'action': 'presence', 'time': 1615809539.466278, 'user': {'account_name': 'Guest'}}
+2021-03-15 16:59:00,502 DEBUG server.py сформировано PRESENCE сообщение:{'action': 'presence', 'time': 1615809539.466278, 'user': {'account_name': 'Guest'}}
+2021-03-15 16:59:00,533 INFO server.py функция разбора message от клиента: {'action': 'presence', 'time': 1615809539.497527, 'user': {'account_name': 'Guest'}}
+2021-03-15 16:59:00,533 DEBUG server.py сформировано PRESENCE сообщение:{'action': 'presence', 'time': 1615809539.497527, 'user': {'account_name': 'Guest'}}
+2021-03-15 16:59:00,533 INFO server.py функция разбора message от клиента: {'action': 'presence', 'time': 1615809539.497527, 'user': {'account_name': 'Guest'}}
+2021-03-15 16:59:00,533 DEBUG server.py сформировано PRESENCE сообщение:{'action': 'presence', 'time': 1615809539.497527, 'user': {'account_name': 'Guest'}}
+2021-03-15 16:59:11,648 INFO server.py функция разбора message от клиента: {'action': 'authenticate', 'time': 1615809550.7730556, 'user': {'account_name': 'qqq'}, 'msg': None}
+2021-03-15 16:59:11,648 DEBUG server.py сформировано AUTH сообщение: {'action': 'authenticate', 'time': 1615809550.7730556, 'user': {'account_name': 'qqq'}, 'msg': None}
+2021-03-15 16:59:14,688 INFO server.py функция разбора message от клиента: {'action': 'authenticate', 'time': 1615809554.563374, 'user': {'account_name': 'qqq2'}, 'msg': None}
+2021-03-15 16:59:14,688 DEBUG server.py сформировано AUTH сообщение: {'action': 'authenticate', 'time': 1615809554.563374, 'user': {'account_name': 'qqq2'}, 'msg': None}
+2021-03-15 16:59:21,769 INFO server.py функция разбора message от клиента: {'action': 'authenticate', 'time': 1615809561.0505261, 'user': {'account_name': 'qqq3'}, 'msg': None}
+2021-03-15 16:59:21,769 DEBUG server.py сформировано AUTH сообщение: {'action': 'authenticate', 'time': 1615809561.0505261, 'user': {'account_name': 'qqq3'}, 'msg': None}
+2021-03-15 16:59:30,862 INFO server.py функция разбора message от клиента: {'action': 'msg', 'time': 1615809570.5972915, 'account_name': 'Guest', 'msg_text': 'Welcome all'}
+2021-03-15 16:59:30,862 DEBUG server.py сформировано MSG сообщение: {'action': 'msg', 'time': 1615809570.5972915, 'account_name': 'Guest', 'msg_text': 'Welcome all'}
+2021-03-15 16:59:30,862 DEBUG server.py message in send_data_list {'action': 'msg', 'sender': 'Guest', 'time': 1615809570.8629081, 'msg_text': 'Welcome all'}
+2021-03-15 16:59:30,862 DEBUG server.py send message: {'action': 'msg', 'sender': 'Guest', 'time': 1615809570.8629081, 'msg_text': 'Welcome all'} to client: <socket.socket fd=1000, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59078)>
+2021-03-15 16:59:30,862 DEBUG server.py send message: {'action': 'msg', 'sender': 'Guest', 'time': 1615809570.8629081, 'msg_text': 'Welcome all'} to client: <socket.socket fd=1044, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59079)>
+2021-03-15 16:59:30,862 DEBUG server.py send message: {'action': 'msg', 'sender': 'Guest', 'time': 1615809570.8629081, 'msg_text': 'Welcome all'} to client: <socket.socket fd=996, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59080)>
+2021-03-15 16:59:46,007 INFO server.py функция разбора message от клиента: {'action': 'msg', 'time': 1615809585.835797, 'account_name': 'Guest', 'msg_text': 'wait '}
+2021-03-15 16:59:46,007 DEBUG server.py сформировано MSG сообщение: {'action': 'msg', 'time': 1615809585.835797, 'account_name': 'Guest', 'msg_text': 'wait '}
+2021-03-15 16:59:46,007 DEBUG server.py message in send_data_list {'action': 'msg', 'sender': 'Guest', 'time': 1615809586.0076659, 'msg_text': 'wait '}
+2021-03-15 16:59:46,007 DEBUG server.py send message: {'action': 'msg', 'sender': 'Guest', 'time': 1615809586.0076659, 'msg_text': 'wait '} to client: <socket.socket fd=1000, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59078)>
+2021-03-15 16:59:46,007 DEBUG server.py send message: {'action': 'msg', 'sender': 'Guest', 'time': 1615809586.0076659, 'msg_text': 'wait '} to client: <socket.socket fd=1044, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59079)>
+2021-03-15 16:59:46,007 DEBUG server.py send message: {'action': 'msg', 'sender': 'Guest', 'time': 1615809586.0076659, 'msg_text': 'wait '} to client: <socket.socket fd=996, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59080)>
+2021-03-15 16:59:48,016 INFO server.py функция разбора message от клиента: {'action': 'msg', 'time': 1615809587.4497006, 'account_name': 'Guest', 'msg_text': 'wait'}
+2021-03-15 16:59:48,016 DEBUG server.py сформировано MSG сообщение: {'action': 'msg', 'time': 1615809587.4497006, 'account_name': 'Guest', 'msg_text': 'wait'}
+2021-03-15 16:59:48,016 DEBUG server.py message in send_data_list {'action': 'msg', 'sender': 'Guest', 'time': 1615809588.0167634, 'msg_text': 'wait'}
+2021-03-15 16:59:48,016 DEBUG server.py send message: {'action': 'msg', 'sender': 'Guest', 'time': 1615809588.0167634, 'msg_text': 'wait'} to client: <socket.socket fd=1000, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59078)>
+2021-03-15 16:59:48,016 DEBUG server.py send message: {'action': 'msg', 'sender': 'Guest', 'time': 1615809588.0167634, 'msg_text': 'wait'} to client: <socket.socket fd=1044, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59079)>
+2021-03-15 16:59:48,016 DEBUG server.py send message: {'action': 'msg', 'sender': 'Guest', 'time': 1615809588.0167634, 'msg_text': 'wait'} to client: <socket.socket fd=996, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59080)>
+2021-03-15 16:59:53,075 INFO server.py функция разбора message от клиента: {'action': 'msg', 'time': 1615809592.1240938, 'account_name': 'Guest', 'msg_text': 'other msg'}
+2021-03-15 16:59:53,075 DEBUG server.py сформировано MSG сообщение: {'action': 'msg', 'time': 1615809592.1240938, 'account_name': 'Guest', 'msg_text': 'other msg'}
+2021-03-15 16:59:53,075 DEBUG server.py message in send_data_list {'action': 'msg', 'sender': 'Guest', 'time': 1615809593.0752802, 'msg_text': 'other msg'}
+2021-03-15 16:59:53,075 DEBUG server.py send message: {'action': 'msg', 'sender': 'Guest', 'time': 1615809593.0752802, 'msg_text': 'other msg'} to client: <socket.socket fd=1000, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59078)>
+2021-03-15 16:59:53,075 DEBUG server.py send message: {'action': 'msg', 'sender': 'Guest', 'time': 1615809593.0752802, 'msg_text': 'other msg'} to client: <socket.socket fd=1044, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59079)>
+2021-03-15 16:59:53,075 DEBUG server.py send message: {'action': 'msg', 'sender': 'Guest', 'time': 1615809593.0752802, 'msg_text': 'other msg'} to client: <socket.socket fd=996, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59080)>
+2021-03-15 16:59:57,113 INFO server.py функция разбора message от клиента: {'action': 'msg', 'time': 1615809596.3168483, 'account_name': 'Guest', 'msg_text': 'quit'}
+2021-03-15 16:59:57,113 DEBUG server.py сформировано MSG сообщение: {'action': 'msg', 'time': 1615809596.3168483, 'account_name': 'Guest', 'msg_text': 'quit'}
+2021-03-15 16:59:57,113 DEBUG server.py message in send_data_list {'action': 'msg', 'sender': 'Guest', 'time': 1615809597.113696, 'msg_text': 'quit'}
+2021-03-15 16:59:57,113 DEBUG server.py send message: {'action': 'msg', 'sender': 'Guest', 'time': 1615809597.113696, 'msg_text': 'quit'} to client: <socket.socket fd=1000, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59078)>
+2021-03-15 16:59:57,113 DEBUG server.py send message: {'action': 'msg', 'sender': 'Guest', 'time': 1615809597.113696, 'msg_text': 'quit'} to client: <socket.socket fd=1044, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59079)>
+2021-03-15 16:59:57,113 DEBUG server.py send message: {'action': 'msg', 'sender': 'Guest', 'time': 1615809597.113696, 'msg_text': 'quit'} to client: <socket.socket fd=996, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59080)>
+2021-03-15 16:59:58,129 INFO server.py клиент ('127.0.0.1', 59080) отключился
+2021-03-15 17:00:02,191 INFO server.py клиент ('127.0.0.1', 59078) отключился
+2021-03-15 17:00:02,191 INFO server.py клиент ('127.0.0.1', 59079) отключился

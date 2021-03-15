@@ -1,0 +1,96 @@
+2021-03-15 16:58:59,466 INFO client.py client started 127.0.0.1:7777 | listen_mode=True
+2021-03-15 16:58:59,466 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2021-03-15 16:58:59,497 INFO client.py client started 127.0.0.1:7777 | listen_mode=True
+2021-03-15 16:58:59,497 INFO client.py client started 127.0.0.1:7777 | listen_mode=False
+2021-03-15 16:58:59,497 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2021-03-15 16:58:59,497 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2021-03-15 16:58:59,513 DEBUG decoration_log.py Called function:__main__.create_presence:((), {}). Called from function: start_client
+2021-03-15 16:58:59,528 DEBUG decoration_log.py Called function:__main__.create_presence:((), {}). Called from function: start_client
+2021-03-15 16:58:59,528 DEBUG decoration_log.py Called function:__main__.create_presence:((), {}). Called from function: start_client
+2021-03-15 16:59:00,502 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200, 'error': '200:OK', 'msg': 'Welcome, Guest'}
+2021-03-15 16:59:00,502 DEBUG client.py 200 содержит 200:OK
+2021-03-15 16:59:00,502 DEBUG decoration_log.py Called function:__main__.process_handler:(({'response': 200, 'error': '200:OK', 'msg': 'Welcome, Guest'},), {}). Called from function: start_client
+2021-03-15 16:59:00,502 INFO client.py соединение с сервером 127.0.0.1:7777. Ответ: Welcome, Guest
+2021-03-15 16:59:00,533 DEBUG decoration_log.py Called function:__main__.client_message_handler:(({'action': 'presence', 'time': 1615809539.466278, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=1000, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59078)>), {}). Called from function: start_server
+2021-03-15 16:59:00,533 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200, 'error': '200:OK', 'msg': 'Welcome, Guest'}
+2021-03-15 16:59:00,533 DEBUG client.py 200 содержит 200:OK
+2021-03-15 16:59:00,533 DEBUG decoration_log.py Called function:__main__.client_message_handler:(({'action': 'presence', 'time': 1615809539.497527, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=1044, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59079)>), {}). Called from function: start_server
+2021-03-15 16:59:00,548 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200, 'error': '200:OK', 'msg': 'Welcome, Guest'}
+2021-03-15 16:59:00,548 DEBUG decoration_log.py Called function:__main__.process_handler:(({'response': 200, 'error': '200:OK', 'msg': 'Welcome, Guest'},), {}). Called from function: start_client
+2021-03-15 16:59:00,548 INFO client.py соединение с сервером 127.0.0.1:7777. Ответ: Welcome, Guest
+2021-03-15 16:59:00,548 DEBUG client.py 200 содержит 200:OK
+2021-03-15 16:59:00,548 DEBUG decoration_log.py Called function:__main__.client_message_handler:(({'action': 'presence', 'time': 1615809539.497527, 'user': {'account_name': 'Guest'}}, [], <socket.socket fd=996, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59080)>), {}). Called from function: start_server
+2021-03-15 16:59:00,548 DEBUG decoration_log.py Called function:__main__.process_handler:(({'response': 200, 'error': '200:OK', 'msg': 'Welcome, Guest'},), {}). Called from function: start_client
+2021-03-15 16:59:00,548 INFO client.py соединение с сервером 127.0.0.1:7777. Ответ: Welcome, Guest
+2021-03-15 16:59:10,773 DEBUG decoration_log.py Called function:__main__.get_user:((), {}). Called from function: start_client
+2021-03-15 16:59:10,773 INFO client.py Guest авторизовался как qqq
+2021-03-15 16:59:10,773 DEBUG client.py отправка authenticate сообщения на сервер 127.0.0.1:7777 от user=qqq
+2021-03-15 16:59:10,773 DEBUG client.py Сформировано action сообщение для пользователя qqq
+2021-03-15 16:59:10,773 DEBUG decoration_log.py Called function:__main__.create_action:(('qqq',), {'action': 'authenticate', 'msg': None}). Called from function: start_client
+2021-03-15 16:59:11,648 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200, 'error': '200:OK', 'msg': 'Welcome, qqq'}
+2021-03-15 16:59:11,648 DEBUG client.py 200 содержит 200:OK
+2021-03-15 16:59:11,648 DEBUG decoration_log.py Called function:__main__.client_message_handler:(({'action': 'authenticate', 'time': 1615809550.7730556, 'user': {'account_name': 'qqq'}, 'msg': None}, [], <socket.socket fd=996, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59080)>), {}). Called from function: start_server
+2021-03-15 16:59:11,648 DEBUG decoration_log.py Called function:__main__.process_handler:(({'response': 200, 'error': '200:OK', 'msg': 'Welcome, qqq'},), {}). Called from function: start_client
+2021-03-15 16:59:14,563 DEBUG decoration_log.py Called function:__main__.get_user:((), {}). Called from function: start_client
+2021-03-15 16:59:14,563 INFO client.py Guest авторизовался как qqq2
+2021-03-15 16:59:14,563 DEBUG client.py отправка authenticate сообщения на сервер 127.0.0.1:7777 от user=qqq2
+2021-03-15 16:59:14,563 DEBUG client.py Сформировано action сообщение для пользователя qqq2
+2021-03-15 16:59:14,563 DEBUG decoration_log.py Called function:__main__.create_action:(('qqq2',), {'action': 'authenticate', 'msg': None}). Called from function: start_client
+2021-03-15 16:59:14,688 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200, 'error': '200:OK', 'msg': 'Welcome, qqq2'}
+2021-03-15 16:59:14,688 DEBUG client.py 200 содержит 200:OK
+2021-03-15 16:59:14,688 DEBUG decoration_log.py Called function:__main__.client_message_handler:(({'action': 'authenticate', 'time': 1615809554.563374, 'user': {'account_name': 'qqq2'}, 'msg': None}, [], <socket.socket fd=1044, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59079)>), {}). Called from function: start_server
+2021-03-15 16:59:14,688 DEBUG decoration_log.py Called function:__main__.process_handler:(({'response': 200, 'error': '200:OK', 'msg': 'Welcome, qqq2'},), {}). Called from function: start_client
+2021-03-15 16:59:21,050 DEBUG decoration_log.py Called function:__main__.get_user:((), {}). Called from function: start_client
+2021-03-15 16:59:21,050 INFO client.py Guest авторизовался как qqq3
+2021-03-15 16:59:21,050 DEBUG client.py отправка authenticate сообщения на сервер 127.0.0.1:7777 от user=qqq3
+2021-03-15 16:59:21,050 DEBUG client.py Сформировано action сообщение для пользователя qqq3
+2021-03-15 16:59:21,050 DEBUG decoration_log.py Called function:__main__.create_action:(('qqq3',), {'action': 'authenticate', 'msg': None}). Called from function: start_client
+2021-03-15 16:59:21,769 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200, 'error': '200:OK', 'msg': 'Welcome, qqq3'}
+2021-03-15 16:59:21,769 DEBUG client.py 200 содержит 200:OK
+2021-03-15 16:59:21,769 DEBUG decoration_log.py Called function:__main__.client_message_handler:(({'action': 'authenticate', 'time': 1615809561.0505261, 'user': {'account_name': 'qqq3'}, 'msg': None}, [], <socket.socket fd=1000, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59078)>), {}). Called from function: start_server
+2021-03-15 16:59:21,769 DEBUG decoration_log.py Called function:__main__.process_handler:(({'response': 200, 'error': '200:OK', 'msg': 'Welcome, qqq3'},), {}). Called from function: start_client
+2021-03-15 16:59:30,597 DEBUG client.py Сформирован словарь сообщения: {'action': 'msg', 'time': 1615809570.5972915, 'account_name': 'Guest', 'msg_text': 'Welcome all'}
+2021-03-15 16:59:30,597 DEBUG decoration_log.py Called function:__main__.create_message:((<socket.socket fd=968, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59080), raddr=('127.0.0.1', 7777)>,), {}). Called from function: start_client
+2021-03-15 16:59:30,862 DEBUG decoration_log.py Called function:__main__.client_message_handler:(({'action': 'msg', 'time': 1615809570.5972915, 'account_name': 'Guest', 'msg_text': 'Welcome all'}, [('Guest', 'Welcome all')], <socket.socket fd=996, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59080)>), {}). Called from function: start_server
+2021-03-15 16:59:30,862 INFO client.py Получено сообщение от пользователя Guest:
+Welcome all
+2021-03-15 16:59:30,862 INFO client.py Получено сообщение от пользователя Guest:
+Welcome all
+2021-03-15 16:59:30,862 DEBUG decoration_log.py Called function:__main__.message_from_server:(({'action': 'msg', 'sender': 'Guest', 'time': 1615809570.8629081, 'msg_text': 'Welcome all'},), {}). Called from function: start_client
+2021-03-15 16:59:30,862 DEBUG decoration_log.py Called function:__main__.message_from_server:(({'action': 'msg', 'sender': 'Guest', 'time': 1615809570.8629081, 'msg_text': 'Welcome all'},), {}). Called from function: start_client
+2021-03-15 16:59:45,835 DEBUG client.py Сформирован словарь сообщения: {'action': 'msg', 'time': 1615809585.835797, 'account_name': 'Guest', 'msg_text': 'wait '}
+2021-03-15 16:59:45,835 DEBUG decoration_log.py Called function:__main__.create_message:((<socket.socket fd=968, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59080), raddr=('127.0.0.1', 7777)>,), {}). Called from function: start_client
+2021-03-15 16:59:46,007 DEBUG decoration_log.py Called function:__main__.client_message_handler:(({'action': 'msg', 'time': 1615809585.835797, 'account_name': 'Guest', 'msg_text': 'wait '}, [('Guest', 'wait ')], <socket.socket fd=996, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59080)>), {}). Called from function: start_server
+2021-03-15 16:59:46,007 INFO client.py Получено сообщение от пользователя Guest:
+wait 
+2021-03-15 16:59:46,007 INFO client.py Получено сообщение от пользователя Guest:
+wait 
+2021-03-15 16:59:46,007 DEBUG decoration_log.py Called function:__main__.message_from_server:(({'action': 'msg', 'sender': 'Guest', 'time': 1615809586.0076659, 'msg_text': 'wait '},), {}). Called from function: start_client
+2021-03-15 16:59:46,007 DEBUG decoration_log.py Called function:__main__.message_from_server:(({'action': 'msg', 'sender': 'Guest', 'time': 1615809586.0076659, 'msg_text': 'wait '},), {}). Called from function: start_client
+2021-03-15 16:59:47,449 DEBUG client.py Сформирован словарь сообщения: {'action': 'msg', 'time': 1615809587.4497006, 'account_name': 'Guest', 'msg_text': 'wait'}
+2021-03-15 16:59:47,449 DEBUG decoration_log.py Called function:__main__.create_message:((<socket.socket fd=968, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59080), raddr=('127.0.0.1', 7777)>,), {}). Called from function: start_client
+2021-03-15 16:59:48,016 DEBUG decoration_log.py Called function:__main__.client_message_handler:(({'action': 'msg', 'time': 1615809587.4497006, 'account_name': 'Guest', 'msg_text': 'wait'}, [('Guest', 'wait')], <socket.socket fd=996, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59080)>), {}). Called from function: start_server
+2021-03-15 16:59:48,016 INFO client.py Получено сообщение от пользователя Guest:
+wait
+2021-03-15 16:59:48,016 INFO client.py Получено сообщение от пользователя Guest:
+wait
+2021-03-15 16:59:48,016 DEBUG decoration_log.py Called function:__main__.message_from_server:(({'action': 'msg', 'sender': 'Guest', 'time': 1615809588.0167634, 'msg_text': 'wait'},), {}). Called from function: start_client
+2021-03-15 16:59:48,016 DEBUG decoration_log.py Called function:__main__.message_from_server:(({'action': 'msg', 'sender': 'Guest', 'time': 1615809588.0167634, 'msg_text': 'wait'},), {}). Called from function: start_client
+2021-03-15 16:59:52,124 DEBUG client.py Сформирован словарь сообщения: {'action': 'msg', 'time': 1615809592.1240938, 'account_name': 'Guest', 'msg_text': 'other msg'}
+2021-03-15 16:59:52,124 DEBUG decoration_log.py Called function:__main__.create_message:((<socket.socket fd=968, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59080), raddr=('127.0.0.1', 7777)>,), {}). Called from function: start_client
+2021-03-15 16:59:53,075 DEBUG decoration_log.py Called function:__main__.client_message_handler:(({'action': 'msg', 'time': 1615809592.1240938, 'account_name': 'Guest', 'msg_text': 'other msg'}, [('Guest', 'other msg')], <socket.socket fd=996, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59080)>), {}). Called from function: start_server
+2021-03-15 16:59:53,075 INFO client.py Получено сообщение от пользователя Guest:
+other msg
+2021-03-15 16:59:53,075 INFO client.py Получено сообщение от пользователя Guest:
+other msg
+2021-03-15 16:59:53,075 DEBUG decoration_log.py Called function:__main__.message_from_server:(({'action': 'msg', 'sender': 'Guest', 'time': 1615809593.0752802, 'msg_text': 'other msg'},), {}). Called from function: start_client
+2021-03-15 16:59:56,316 DEBUG client.py Сформирован словарь сообщения: {'action': 'msg', 'time': 1615809596.3168483, 'account_name': 'Guest', 'msg_text': 'quit'}
+2021-03-15 16:59:56,316 DEBUG decoration_log.py Called function:__main__.create_message:((<socket.socket fd=968, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59080), raddr=('127.0.0.1', 7777)>,), {}). Called from function: start_client
+2021-03-15 16:59:57,113 DEBUG decoration_log.py Called function:__main__.client_message_handler:(({'action': 'msg', 'time': 1615809596.3168483, 'account_name': 'Guest', 'msg_text': 'quit'}, [('Guest', 'quit')], <socket.socket fd=996, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59080)>), {}). Called from function: start_server
+2021-03-15 16:59:57,113 INFO client.py Получено сообщение от пользователя Guest:
+quit
+2021-03-15 16:59:57,113 INFO client.py Получено сообщение от пользователя Guest:
+quit
+2021-03-15 16:59:57,113 DEBUG decoration_log.py Called function:__main__.message_from_server:(({'action': 'msg', 'sender': 'Guest', 'time': 1615809597.113696, 'msg_text': 'quit'},), {}). Called from function: start_client
+2021-03-15 16:59:57,113 DEBUG decoration_log.py Called function:__main__.message_from_server:(({'action': 'msg', 'sender': 'Guest', 'time': 1615809597.113696, 'msg_text': 'quit'},), {}). Called from function: start_client
+2021-03-15 16:59:58,035 INFO client.py Завершение работы по команде пользователя.
